@@ -157,7 +157,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYmQxNTYx" projecturn="a.cGVyc29uYWw6dWUyYmQxNTYxIzIwMTcwNTAzNzQ1OTM2NTY" f3durn="urn:adsk.wipprod:dm.lineage:4LoYFpwRT0WNoFuGUnykHQ" pcbguid="78764fb1-ee6b-49c0-b5bc-c6e3655d7beb" lastpulledtime="2019-02-07T21:09:33Z" lastsyncedchangeguid="44b8d85f-1404-02d4-668d-95ffcc52724d"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYmQxNTYx" projecturn="a.cGVyc29uYWw6dWUyYmQxNTYxIzIwMTcwNTAzNzQ1OTM2NTY" f3durn="urn:adsk.wipprod:dm.lineage:4LoYFpwRT0WNoFuGUnykHQ" pcbguid="78764fb1-ee6b-49c0-b5bc-c6e3655d7beb" lastpulledtime="2019-02-07T21:09:33Z" lastsyncedchangeguid="b2fdb641-c53b-a119-a0bc-a5a252d5b16f"/>
 <plain>
 <text x="32.131" y="2.667" size="1.016" layer="21" font="vector" rot="R180">Alberto Larrazolo</text>
 <hole x="43.18" y="27.94" drill="0.9"/>
@@ -1549,7 +1549,7 @@ diameter 2 mm, horizontal, grid 10.16 mm</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="Motor_Power" width="2.54" drill="0">
+<class number="1" name="Motor_Power" width="1.27" drill="0">
 </class>
 </classes>
 <designrules name="default">
@@ -1881,6 +1881,17 @@ design rules under a new name.</description>
 <vertex x="6.731" y="31.75"/>
 </polygon>
 <contactref element="X1" pad="1"/>
+<wire x1="7.62" y1="22.86" x2="7.62" y2="20.32" width="1.27" layer="16"/>
+<wire x1="7.62" y1="22.86" x2="7.62" y2="25.4" width="1.27" layer="16"/>
+<wire x1="31.75" y1="22.86" x2="31.75" y2="20.32" width="1.27" layer="16"/>
+<wire x1="31.75" y1="22.86" x2="31.75" y2="25.4" width="1.27" layer="16"/>
+<wire x1="35.68" y1="6.35" x2="35.68" y2="8.77" width="1.27" layer="16"/>
+<wire x1="35.68" y1="8.77" x2="35.56" y2="8.89" width="1.27" layer="16"/>
+<wire x1="35.68" y1="6.35" x2="34.29" y2="6.35" width="1.27" layer="16"/>
+<wire x1="21.59" y1="15.24" x2="21.59" y2="17.78" width="1.27" layer="16"/>
+<wire x1="26.67" y1="15.24" x2="27.94" y2="15.24" width="1.27" layer="16"/>
+<wire x1="26.67" y1="15.24" x2="26.67" y2="17.78" width="1.27" layer="16"/>
+<wire x1="21.59" y1="15.24" x2="20.32" y2="15.24" width="1.27" layer="16"/>
 </signal>
 <signal name="M_DRIVE_A" class="1">
 <contactref element="D4" pad="C"/>
@@ -1896,6 +1907,17 @@ design rules under a new name.</description>
 <vertex x="48.641" y="31.75"/>
 </polygon>
 <contactref element="X1" pad="4"/>
+<wire x1="55.88" y1="22.86" x2="55.88" y2="20.32" width="1.27" layer="16"/>
+<wire x1="55.88" y1="22.86" x2="55.88" y2="25.4" width="1.27" layer="16"/>
+<wire x1="80.01" y1="22.86" x2="80.01" y2="25.4" width="1.27" layer="16"/>
+<wire x1="80.01" y1="22.86" x2="80.01" y2="20.32" width="1.27" layer="16"/>
+<wire x1="50.68" y1="6.35" x2="50.68" y2="8.77" width="1.27" layer="16"/>
+<wire x1="50.68" y1="8.77" x2="50.8" y2="8.89" width="1.27" layer="16"/>
+<wire x1="50.68" y1="6.35" x2="52.07" y2="6.35" width="1.27" layer="16"/>
+<wire x1="66.04" y1="15.24" x2="67.31" y2="15.24" width="1.27" layer="16"/>
+<wire x1="66.04" y1="15.24" x2="66.04" y2="17.78" width="1.27" layer="16"/>
+<wire x1="59.69" y1="15.24" x2="58.42" y2="15.24" width="1.27" layer="16"/>
+<wire x1="59.69" y1="15.24" x2="59.69" y2="17.78" width="1.27" layer="16"/>
 </signal>
 <signal name="+12V">
 <polygon width="0.1524" layer="1">
@@ -1912,6 +1934,18 @@ design rules under a new name.</description>
 <contactref element="Q2" pad="S"/>
 <contactref element="D2" pad="C"/>
 <contactref element="X1" pad="2"/>
+<wire x1="34.29" y1="22.86" x2="34.29" y2="20.32" width="1.27" layer="1"/>
+<wire x1="34.29" y1="22.86" x2="34.29" y2="25.4" width="1.27" layer="1"/>
+<wire x1="58.42" y1="22.86" x2="58.42" y2="20.32" width="1.27" layer="1"/>
+<wire x1="58.42" y1="22.86" x2="58.42" y2="26.67" width="1.27" layer="1"/>
+<wire x1="40.68" y1="6.35" x2="40.64" y2="6.39" width="1.27" layer="1"/>
+<wire x1="40.64" y1="6.39" x2="40.64" y2="8.89" width="1.27" layer="1"/>
+<wire x1="40.68" y1="6.35" x2="40.68" y2="3.85" width="1.27" layer="1"/>
+<wire x1="40.68" y1="3.85" x2="40.64" y2="3.81" width="1.27" layer="1"/>
+<wire x1="26.67" y1="5.08" x2="26.67" y2="2.54" width="1.27" layer="1"/>
+<wire x1="26.67" y1="5.08" x2="27.94" y2="5.08" width="1.27" layer="1"/>
+<wire x1="59.69" y1="5.08" x2="58.42" y2="5.08" width="1.27" layer="1"/>
+<wire x1="59.69" y1="5.08" x2="59.69" y2="2.54" width="1.27" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="LED2" pad="K"/>
@@ -1972,6 +2006,18 @@ design rules under a new name.</description>
 <via x="83.82" y="10.16" extent="1-16" drill="0.35"/>
 <via x="83.82" y="11.43" extent="1-16" drill="0.35"/>
 <contactref element="X1" pad="3"/>
+<wire x1="82.55" y1="22.86" x2="82.55" y2="19.05" width="1.27" layer="1"/>
+<wire x1="82.55" y1="22.86" x2="82.55" y2="26.67" width="1.27" layer="1"/>
+<wire x1="10.16" y1="22.86" x2="10.16" y2="20.32" width="1.27" layer="1"/>
+<wire x1="10.16" y1="22.86" x2="10.16" y2="25.4" width="1.27" layer="1"/>
+<wire x1="45.68" y1="6.35" x2="45.68" y2="8.85" width="1.27" layer="16"/>
+<wire x1="45.68" y1="8.85" x2="45.72" y2="8.89" width="1.27" layer="16"/>
+<wire x1="45.68" y1="6.35" x2="45.72" y2="6.31" width="1.27" layer="16"/>
+<wire x1="45.72" y1="6.31" x2="45.72" y2="3.81" width="1.27" layer="16"/>
+<wire x1="21.59" y1="5.08" x2="21.59" y2="2.54" width="1.27" layer="1"/>
+<wire x1="21.59" y1="5.08" x2="20.32" y2="5.08" width="1.27" layer="1"/>
+<wire x1="66.04" y1="5.08" x2="66.04" y2="2.54" width="1.27" layer="1"/>
+<wire x1="66.04" y1="5.08" x2="67.31" y2="5.08" width="1.27" layer="1"/>
 </signal>
 <signal name="INPUT_A">
 <contactref element="R5" pad="2"/>

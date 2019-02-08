@@ -7013,7 +7013,7 @@ high speed (Philips)</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="Motor_Power" width="2.54" drill="0">
+<class number="1" name="Motor_Power" width="1.27" drill="0">
 </class>
 </classes>
 <parts>
